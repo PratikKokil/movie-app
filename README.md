@@ -1,18 +1,5 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
-
-1. Install dependencies
-
-   ```bash# 🎬 Movie App
-
-A modern **React Native + Expo Router Movie App** that lets users explore trending movies with real-time insights.  
-The app is powered by TMDB API and enhanced with a **user-driven popularity model**:  
-🔥 **Trending Movies are shown based on the most searched movies across all users** – not just static data.  
-
----
 
 ## 🚀 Key Features
 
