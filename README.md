@@ -6,45 +6,62 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+   ```bash# 🎬 Movie App
 
-2. Start the app
+A modern **React Native + Expo Router Movie App** that lets users explore trending movies with real-time insights.  
+The app is powered by TMDB API and enhanced with a **user-driven popularity model**:  
+🔥 **Trending Movies are shown based on the most searched movies across all users** – not just static data.  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🚀 Key Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🌟 Core Feature
+- **Trending Movies (User-Driven Popularity)**  
+  - The app tracks user searches and dynamically updates a **Trending Section**.  
+  - Unlike static APIs, this reflects **real user interest** in real time.  
+  - Helps discover what’s popular **right now among all users**.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+### 🎥 Movie Discovery
+- **Detailed Movie Info** – posters, overview, runtime, release date, genres.  
+- **Ratings & Votes** – average rating with total vote count.  
+- **Production Insights** – budget, revenue, and production companies.  
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+### 🎬 Interactive UI
+- **Floating Play Button** – clean, circular button over movie poster.  
+- **Floating Go Back Button** – styled to match the UI theme for smooth navigation.  
+- **Modern Cinematic UI** – dark theme, accent colors, and smooth layout.  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 📱 Experience
+- **Cross-Platform** – Works seamlessly on Android & iOS via Expo.  
+- **Fast & Responsive** – Uses custom `useFetch` hook for optimized API calls.  
+- **Safe Area Support** – Looks clean on devices with notches & dynamic islands.  
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🛠️ Tech Stack
+- **React Native** + [Expo Router](https://expo.github.io/router/docs/)  
+- **TypeScript** for type safety  
+- **NativeWind (Tailwind CSS)** for styling  
+- **TMDB API** for movie data  
+- **Custom Fetch Hook** (`useFetch`) for data management  
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📸 Screenshots  
+
+<p align="center">
+  <img src="./assets/screenshots/screenshot_20250908_155703.png" width="45%" />
+  <img src="./assets/screenshots/screenshot_20250908_155845.png" width="45%" />
+  <img src="./assets/screenshots/screenshot_20250908_155917.png" width="45%" />
+  <img src="./assets/screenshots/screenshot_20250908_160014.png" width="45%" />
+</p>
+
